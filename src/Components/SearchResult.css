@@ -1,0 +1,30 @@
+.search-results {
+    position: absolute;
+    border-radius: 10px;
+    left: 0;
+    color: white;
+    width: 100%;
+    z-index: 1100;
+    padding: 10px;
+    background-color: rgba(45, 53, 61, 0.963);
+    overflow: visible; /* Ensure nothing is being cut off */
+}
+
+.button {
+    border: 0;
+    background-color: rgba(45, 53, 61, 0.963);
+    color: white;
+    transition: background-color 0.3s ease;
+    display: block; /* Use block to ensure proper layout */
+    padding: 10px 20px; /* Adjust padding */
+    width: 100%; /* Full width button */
+    height: 40px; /* Height to ensure visibility */
+    text-align: left;
+    z-index: 1200; /* Ensure button is above other elements */
+    pointer-events: auto; /* Ensure clicks are allowed */
+}
+
+.button:hover {
+    background-color: rgba(211, 211, 211, 0.293);
+    cursor: pointer;
+}

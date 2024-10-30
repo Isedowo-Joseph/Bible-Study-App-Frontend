@@ -1,0 +1,7 @@
+.bible-study-container {
+    display: flex;
+    flex-direction: column; /* Stack components vertically */
+    align-items: stretch; /* Stretch to full width (optional) */
+    margin: 0; /* Reset margins */
+    padding: 16px; /* Add some padding for spacing */
+  }
