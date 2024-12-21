@@ -1,6 +1,7 @@
 import axios from 'axios';
 const API_URL = 'http://localhost:8080/invitation';
-
+// Axios default configuration to send cookies with requests if necessary
+axios.defaults.withCredentials = true;
 const InvitationService = {
 
     sendInvitation(senderId, receiverId, type) {
